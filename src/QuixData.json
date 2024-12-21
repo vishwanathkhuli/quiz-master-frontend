@@ -1,0 +1,142 @@
+{
+  "quizCategories": [
+    {
+      "id": 1,
+      "name": "General Knowledge",
+      "description": "Test your general knowledge with a variety of questions.",
+      "quizzes": [
+        {
+          "id": 1,
+          "name": "General Knowledge Quiz",
+          "questions": [
+            {
+              "id": 1,
+              "question": "What is the capital of France?",
+              "options": [
+                "London",
+                "Berlin",
+                "Paris",
+                "Madrid"
+              ],
+              "correctAnswer": "Paris"
+            },
+            {
+              "id": 2,
+              "question": "Which planet is known as the Red Planet?",
+              "options": [
+                "Venus",
+                "Mars",
+                "Jupiter",
+                "Saturn"
+              ],
+              "correctAnswer": "Mars"
+            },
+            {
+              "id": 3,
+              "question": "Who painted the Mona Lisa?",
+              "options": [
+                "Vincent van Gogh",
+                "Pablo Picasso",
+                "Leonardo da Vinci",
+                "Michelangelo"
+              ],
+              "correctAnswer": "Leonardo da Vinci"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Science",
+      "description": "Explore fascinating science topics.",
+      "quizzes": [
+        {
+          "id": 2,
+          "name": "Physics Basics Quiz",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Who is known as the father of modern physics?",
+              "options": [
+                "Isaac Newton",
+                "Albert Einstein",
+                "Galileo Galilei",
+                "Stephen Hawking"
+              ],
+              "correctAnswer": "Albert Einstein"
+            },
+            {
+              "id": 2,
+              "question": "What is the largest mammal in the world?",
+              "options": [
+                "African Elephant",
+                "Blue Whale",
+                "Giraffe",
+                "Hippopotamus"
+              ],
+              "correctAnswer": "Blue Whale"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pastResults": [
+    {
+      "quizId": 1,
+      "quizName": "General Knowledge Quiz",
+      "score": 3,
+      "totalQuestions": 3,
+      "timeTaken": 180,
+      "date": "2024-12-01T10:00:00Z",
+      "detailedAnswers": [
+        {
+          "questionId": 1,
+          "question": "What is the capital of France?",
+          "userAnswer": "Paris",
+          "correctAnswer": "Paris",
+          "isCorrect": true
+        },
+        {
+          "questionId": 2,
+          "question": "Which planet is known as the Red Planet?",
+          "userAnswer": "Mars",
+          "correctAnswer": "Mars",
+          "isCorrect": true
+        },
+        {
+          "questionId": 3,
+          "question": "Who painted the Mona Lisa?",
+          "userAnswer": "Pablo Picasso",
+          "correctAnswer": "Leonardo da Vinci",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "quizId": 2,
+      "quizName": "Physics Basics Quiz",
+      "score": 1,
+      "totalQuestions": 2,
+      "timeTaken": 120,
+      "date": "2024-12-02T11:00:00Z",
+      "detailedAnswers": [
+        {
+          "questionId": 1,
+          "question": "Who is known as the father of modern physics?",
+          "userAnswer": "Albert Einstein",
+          "correctAnswer": "Albert Einstein",
+          "isCorrect": true
+        },
+        {
+          "questionId": 2,
+          "question": "What is the largest mammal in the world?",
+          "userAnswer": "African Elephant",
+          "correctAnswer": "Blue Whale",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
